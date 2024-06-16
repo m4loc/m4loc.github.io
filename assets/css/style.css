@@ -19,8 +19,9 @@
 }
 
 @font-face {
-  font-family: 'VCR OSD MONO';
-  src: url('VCR_OSD_MONO_1.001.ttf');
+  /* font-family: 'VCR OSD MONO';
+  src: url('VCR_OSD_MONO_1.001.ttf'); */
+  
 }
 
 :root {
@@ -130,7 +131,7 @@ textarea {
 }
 
 html {
-  font-family: "VCR OSD MONO, sans-serif";
+  font-family: 'Roboto';
 }
 
 body {
@@ -475,7 +476,8 @@ main {
 }
 
 .navbar-link.active {
-  color: var(--orange-yellow-crayola)
+  color: var(--orange-yellow-crayola);
+  font-weight: bold;
 }
 
 .about .article-title,
